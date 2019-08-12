@@ -20,4 +20,3 @@ print("\nStarted listening..\n")
 with Listener(on_press=pressing_key,on_release=releasing_key) as listener:
     listener.join()
 
-print("hello")
